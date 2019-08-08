@@ -1,0 +1,20 @@
+.block-header__wrap {
+    @include flex-d-row();
+    justify-content: space-between;
+    align-items: center;
+    height: 105px;
+}
+.block-header__images {
+    height: 25px;
+
+}
+.block-header__nav {
+    @include flex-d-row();
+}
+.block-header__item {
+    height: 25px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 3px;
+}

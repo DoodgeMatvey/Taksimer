@@ -1,0 +1,24 @@
+.block-footer {
+    height: 175px;
+    background-color: #4e5253;
+    color: white;
+}
+.block-footer__wrap {
+    @include flex-d-row();
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+.footer-nav {
+    @include flex-d-row();
+    align-items: center;
+}
+.feedback {
+    cursor: pointer;
+    padding-left: 20px;
+}
+.footer-nav__item {
+    color: white;
+    text-transform: none;
+}

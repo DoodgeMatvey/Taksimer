@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Taksimer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/css/main.css" />
+</head>
+<body>
+    <header class="block block-header">
+        <div class="block__wrap block-header__wrap">
+            <img class="logo" src="img/Logo.png" alt="logo">
+            <div class="block-header__nav">
+                <a href="#"><div class="block-header__item"><img class="block-header__images" src="img/facebook-xxl.png" alt="facebook-icon"></div></a>
+                <a href="#"><div class="block-header__item"><img class="block-header__images" src="img/skype-xxl.png" alt="skype-icon"></div></a>
+                <a href="#"><div class="block-header__item"><img class="block-header__images" src="img/telegram.png" alt="telegram-icon"></div></a>
+                <a href="#"><div class="block-header__item"><img class="block-header__images" src="img/close-envelope.png" alt="message-icon"></div></a>
+            </div>
+        </div>
+    </header>
+    <section class="block block-bring">
+        <div class="block__wrap block-bring__wrap">
+            <div class="block-bring__text">
+                <h1 class="text-h1 block-bring-h1">Приводим клиентов для таксопарков </h1>
+                <h2 class="block-bring__secondary-text">за процент от совершенной поездки.</h2>
+                <p class="block-bring__small-text">Оставьте заявку до 01 марта и мы будем<br> целый месяц привлекать для вас клиентов <span class="underline-text">бесплатно!</span></p>
+            </div>
+            <form action="#" class="contact-form">
+                <input class="contact-form__item contact-form__item-f" type="text" placeholder="Как к вам обращаться?">
+                <input class="contact-form__item contact-form__item-s" type="number" placeholder="Куда вам позвонить?">
+                <input class="contact-form__button" type="button" value="Получить клиентов">
+            </form>
+        </div>
+    </section>
+    <section class="block block-about">
+        <div class="block__wrap block-about__wrap">
+            <h2 class="block-about__title">Кто мы?</h2>
+            <p class="block-about__sec-text">Мы создали площадку таксимер, с помощью которой пользователь может осуществлять вызов такси из разных таксопарков, находясь в одном приложении. «Таксимер» представлен на платформах Android, IOS, web.</p>
+            <h2 class="block-about__title-second">Мы будем вам полезны:</h2>
+            <div class="block-about-cards">
+                <div class="block-about-cards__item">
+                    <img class="block-about-cards__image" src="img/car2.png" alt="car-img">
+                    <p class="block-about-cards__item-text">Мы приведем вам клиентов даже если вы самое дорогое такси в городе.</p>
+                </div>
+                <div class="block-about-cards__item">
+                    <img class="block-about-cards__image" src="img/like2.png" alt="">
+                    <p class="block-about-cards__item-text">Мы приведем вам клиентов даже если у вас низкая исполняемость</p>
+                </div>
+                <div class="block-about-cards__item">
+                    <img class="block-about-cards__image" src="img/mobile2.png" alt="mobile">
+                    <p class="block-about-cards__item-text">Если у вас нет мобильного приложения или мало трафика</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="block block-work">
+        <div class="block__wrap block-work__wrap">
+            <div class="block-work__important">
+                <img class="img-important" src="img/important.png" alt="important">
+                <p class="block-work__text-important">Вам не нужен отдельный бюджет на маркетинг, вы платите <span class="underline-text">с успешно выполненного заказа</span></p>
+            </div>
+            <h2 class="block-work__title">Как работает «Таксимер»?</h2>
+            <div class="block-work-main">
+                <div class="block-work-main__item-text">
+                    <div class="block-work-text block-work-text-first div-active" title="Перейти">
+                        <p class="block-work-text__item">С помощью удобной карты пользователь выбирает точки начала и окончания маршрута</p>
+                    </div>
+                    <div class="block-work-text block-work-text-second" title="Перейти">
+                        <p class="block-work-text__item">Пользователю предлагается выбор такси в зависимости от рейтинга и цены. </p>
+                    </div>
+                    <div class="block-work-text block-work-text-third" title="Перейти">
+                        <p class="block-work-text__item">Пользователь осуществляет заказ либо напрямую, либо из приложения партнера. Таксопарк получает заказ.</p>
+                    </div>
+                </div>
+                <div class="block-work-main__item">
+                   
+                        <img class="block-work-main__image-f" src="img/top-phone.png" alt="top-phone">
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="block block-variants">
+        <div class="block__wrap block-variants__wrap">
+           <h2 class="block-variants__title">Мы предлагаем два варианта сотрудничества:</h2>
+           <div class="block-variants-main">
+               <div class="block-variants-main__item">
+                   <p class="block-variants-main-text block-variants-main-text-first">% с каждого  успешного заказа</p>
+                   <img src="img/cards-car.png" alt="cards-car-img">
+                   <input onclick="openWin()" class="block-variant-button" type="button" value="Нужны заказы">
+               </div>
+               <div class="block-variants-main__item">
+                   <p class="block-variants-main-text">Фиксированная стоимость за установку вашего приложения</p>
+                   <img class="block-variants-main__image" src="img/cards-sec.png" alt="cards-sec-img">
+                   <input onclick="openWin()" class="block-variant-button" type="button" value="Нужны установки">
+               </div>
+           </div>
+        </div>
+    </section>
+    <section class="block block-companies">
+        <div class="block__wrap block-companies__wrap">
+            <h2 class="block-companies__title">В нашем сервисе уже представлены:</h2>
+            <div class="block-companies-main">
+                <div class="block-companies__item">
+                    <a href="#"><img class="blok-companies__image" src="img/uber.png" alt=""></a>
+                    <a href="#"><img class="blok-companies__image" src="img/Yandex.png" alt=""></a>
+                    <a href="#"><img class="blok-companies__image" src="img/Get.png" alt=""></a>
+                    <a href="#"><img class="blok-companies__image" src="img/Takso.png" alt=""></a>
+                </div>
+                <div class="block-companies__item block-companies__item-second">
+                    <a href="#"><img class="blok-companies__image" src="img/inDriver.png" alt=""></a>
+                    <a href="#"><img class="blok-companies__image" src="img/maxim.png" alt=""></a>
+                    <a href="#"><img class="blok-companies__image" class="lucky-img" src="img/lucky.png" alt=""></a>
+                </div>
+            </div>
+            <form action="#" class="contact-form contact-form-sec">
+                <input class="contact-form__item contact-form__item-f" type="text" placeholder="Как к вам обращаться?">
+                <input class="contact-form__item contact-form__item-s" type="number" placeholder="Куда вам позвонить?">
+                <input class="contact-form__button contact-form__button-sec" type="button" value="Бесплатная консультация">
+            </form>
+        </div>
+    </section>
+    <footer class="block block-footer">
+        <div class="block__wrap block-footer__wrap">
+            <p>© Таксимер 2018</p>
+            <div class="footer-nav">
+                <a class="footer-nav__item" href="#">Пользовательское соглашение</a>
+                <p onclick="openWin()" class="feedback">Обратная связь</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <div class="modal">
+        <div class="exit"> 
+            <img class="exit-img" src="img/close.svg" alt="exit-img-error">
+        </div>
+        <div class="modal__content">
+            <div class="modal-text-block">
+                <h2 class="modal-title">Обратная связь</h2>
+            </div>
+            <form action="#" class="modal-form">
+                <div class="block-inputs">
+                    <input class="modal-form__item" type="text" placeholder="ФИО">
+                    <input class="modal-form__item" type="tel" placeholder="Телефон">
+                </div>
+                <textarea class="modal-form__item modal-form__item-ta" type="text" placeholder="Сообщение"></textarea>
+                <label>
+                    <input name="remember" id="checkbox" class="checkbox" type="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span class="mr">Я согласен с условиями обработки персональных данных</span>
+                </label>
+                <div class="send">
+                    <p class="send__text">Отправлено!</p>
+                </div>
+                <button type="submit" class="button2 button2-modal">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

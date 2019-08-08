@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "Proxima Nova - Black";
+    src: url('/../fonts/ProximaNova-Black.eot') format('eot'),
+      url('../fonts/ProximaNova-Black.woff') format('woff'),
+      url('../fonts/ProximaNova-Black.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: "ProximaNova-Bold";
+    src: url('../fonts/ProximaNova-Bold.eot') format('eot'),
+      url('../fonts/ProximaNova-Bold.woff') format('woff'),
+      url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: "Proxima Nova";
+    src: url('../fonts/ProximaNova-Regular.eot') format('eot'),
+      url('../fonts/ProximaNova-Regular.woff') format('woff'),
+      url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: "Proxima Nova T - Thin";
+    src: url('../fonts/ProximaNovaT-Thin.eot') format('eot'),
+      url('../fonts/ProximaNovaT-Thin.woff') format('woff'),
+      url('../fonts/ProximaNovaT-Thin.ttf') format('truetype');
+  }
+body, ul, li, p, h1, h2, h3, h4, h5, h6, header, footer, main {
+    margin: 0;
+    padding: 0;
+    padding-inline-start: 0;
+    border: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: "Proxima Nova";
+}
+
+// h1 {
+//     font-family: "Proxima Nova - Black";
+//     font-size: 80px;
+//     font-weight: 900;
+//     text-transform: uppercase;
+//   }
+  
+//   h2 {
+//     font-size: 42px;
+//     line-height: 80px;
+//   }
+  
+//   h3 {
+//     color: #01321f;
+//     font-family: "Proxima Nova - Black";
+//     font-size: 42px;
+//     font-weight: 400;
+//     line-height: 30px;
+//     text-transform: uppercase;
+//     text-align: center;
+//   }
+  
+//   h4 {}
+  
+//   h5 {
+//     color: #000000;
+//     font-size: 22px;
+//     font-weight: 400;
+//     line-height: 60px;
+//     text-transform: uppercase;
+//   }
+  
+// p {
+//     color: #000000;
+//     font-family: "Proxima Nova T - Thin";
+//     font-size: 18px;
+//     line-height: 30px;
+//   }
+input, button {
+    outline:  none;
+}
+a {
+color: #000000;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-decoration: none;
+text-transform: uppercase;
+}
+h2 {
+    text-align: center;
+}
+.button3 {
+text-decoration: none;
+text-transform: uppercase;
+text-align: center;
+padding: 15px 32px;
+border: solid 1px white;
+border-radius: 50px;
+font-weight: bold;
+font-size: 18px;
+color: #fefefe;
+height: 60px;
+background: transparent;
+white-space: nowrap;
+}  
+.block {
+    width: 100%;
+}
+.block__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.headline-block__secondary-text {
+    font-size: 20px;
+    font-weight: lighter;
+}
+.text-h1 {
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.text-h3 {
+    font-size: 29px;
+    font-family: "Proxima Nova";
+    color: #000000;
+}
